@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Main3Activity">;
+    <TextView
+        android:id="@+id/tx6"
+        android:text="phone number:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et6"
+        android:hint="phone no"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="10"/>
+    <TextView
+        android:id="@+id/tx7"
+        android:text="Message:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et7"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_style"
+        android:hint="Type input here......"
+        android:padding="5dp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+    <Button
+        android:id="@+id/btn3"
+        android:text="SEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
